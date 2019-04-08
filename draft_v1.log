@@ -1,0 +1,694 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.13)  8 APR 2019 14:15
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**draft_v1.tex
+(./draft_v1.tex
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+(./igs.cls
+Document Class: igs 2015/09/03 v4.00 IGS document class
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <9.5> not available
+(Font)              size <9> substituted on input line 460.
+
+(./lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count79
+\output=\toks14
+\linenoprevgraf=\count80
+\linenumbersep=\dimen102
+\linenumberwidth=\dimen103
+\c@linenumber=\count81
+\c@pagewiselinenumber=\count82
+\c@LN@truepage=\count83
+\c@internallinenumber=\count84
+\c@internallinenumbers=\count85
+\quotelinenumbersep=\dimen104
+\bframerule=\dimen105
+\bframesep=\dimen106
+\bframebox=\box26
+LaTeX Info: Redefining \\ on input line 3056.
+)
+\c@part=\count86
+\c@section=\count87
+\c@subsection=\count88
+\c@subsubsection=\count89
+\c@paragraph=\count90
+\c@subparagraph=\count91
+\c@figure=\count92
+\c@table=\count93
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen107
+\c@dummy=\count94
+) (./igsnatbib.sty
+Package: igsnatbib 2008/01/18 v1.00 IGS version of natbib.sty
+\bibhang=\skip43
+\bibsep=\skip44
+LaTeX Info: Redefining \cite on input line 521.
+\c@NAT@ctr=\count95
+)
+(/usr/share/texlive/texmf-dist/tex/latex/appendix/appendix.sty
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count96
+\c@@ppsavesec=\count97
+\c@@ppsaveapp=\count98
+) (./graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 95.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count99
+))
+\Gin@req@height=\dimen108
+\Gin@req@width=\dimen109
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+No file draft_v1.aux.
+\openout1 = `draft_v1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+
+
+
+Found AMS Euler Roman fonts on the system, using the 'igsupmath' package.
+
+(./igsupmath.sty
+Package: igsupmath 2007/11/09 v1.00 IGS LaTeX2e package
+ (./amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+ (./amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen110
+)
+\pmbraise@=\dimen111
+)
+\c@mv@upright=\count100
+\c@mv@boldupright=\count101
+LaTeX Font Info:    Overwriting symbol font `letters' in version `upright'
+(Font)                  OML/cmm/m/it --> OML/eur/m/n on input line 37.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `boldupright'
+(Font)                  OML/cmm/m/it --> OML/eur/b/n on input line 38.
+)
+
+
+Found AMS Symbol fonts on the system, using the 'amssymb' package.
+
+(./amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+ (./amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+
+Found the 'amsbsy' package on the system, using it.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count102
+\scratchdimen=\dimen112
+\scratchbox=\box27
+\nofMPsegments=\count103
+\nofMParguments=\count104
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count105
+\MPscratchDim=\dimen113
+\MPnumerator=\count106
+\makeMPintoPDFobject=\count107
+\everyMPtoPDFconversion=\toks18
+)
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <13.5> not available
+(Font)              size <14.4> substituted on input line 60.
+
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 60.
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 60.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
+(Font)              size <5> substituted on input line 60.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 60.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 60.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 60.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+Package natbib Warning: Citation `furst2016' on page 1 undefined on input line 
+60.
+
+
+Package natbib Warning: Citation `reese2018' on page 1 undefined on input line 
+60.
+
+
+Package natbib Warning: Citation `reese2018' on page 1 undefined on input line 
+60.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <9.5> not available
+(Font)              size <9> substituted on input line 60.
+
+
+Overfull \vbox (6.25pt too high) has occurred while \output is active []
+
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+
+Package natbib Warning: Citation `schoof2007' on page 2 undefined on input line
+ 70.
+
+
+Package natbib Warning: Citation `schoof2007' on page 2 undefined on input line
+ 70.
+
+
+Package natbib Warning: Citation `gudmundsson2013' on page 2 undefined on input
+ line 70.
+
+
+Package natbib Warning: Citation `pegler2012' on page 2 undefined on input line
+ 70.
+
+
+Underfull \vbox (badness 1859) has occurred while \output is active []
+
+
+Overfull \vbox (6.25pt too high) has occurred while \output is active []
+
+ [2]
+
+Package natbib Warning: Citation `furst2016' on page 3 undefined on input line 
+74.
+
+
+Package natbib Warning: Citation `reese2018' on page 3 undefined on input line 
+74.
+
+
+Package natbib Warning: Citation `reese2018' on page 3 undefined on input line 
+82.
+
+<figs/fig1.pdf, id=18, 8000.91527pt x 3437.0929pt>
+File: figs/fig1.pdf Graphic file (type pdf)
+ <use figs/fig1.pdf>
+Package pdftex.def Info: figs/fig1.pdf used on input line 86.
+(pdftex.def)             Requested size: 506.45905pt x 217.54495pt.
+
+
+Package natbib Warning: Citation `hoffman2018' on page 3 undefined on input lin
+e 93.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <9.5> not available
+(Font)              size <9> substituted on input line 93.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <9.5> not available
+(Font)              size <9> substituted on input line 93.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <9.5> not available
+(Font)              size <9> substituted on input line 93.
+
+
+Package natbib Warning: Citation `schoof2013' on page 3 undefined on input line
+ 93.
+
+
+Package natbib Warning: Citation `perego2012' on page 3 undefined on input line
+ 93.
+
+
+Package natbib Warning: Citation `tezaur2015a' on page 3 undefined on input lin
+e 93.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 96.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <5.5> not available
+(Font)              size <5> substituted on input line 96.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 96.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \vbox (6.25pt too high) has occurred while \output is active []
+
+ [3]
+
+LaTeX Warning: Reference `eq:foStokes' on page 4 undefined on input line 115.
+
+
+LaTeX Warning: Reference `eq:effstrain' on page 4 undefined on input line 127.
+
+
+Overfull \vbox (6.25pt too high) has occurred while \output is active []
+
+ [4 <./figs/fig1.pdf>]
+
+Package natbib Warning: Citation `hoffman2018' on page 5 undefined on input lin
+e 155.
+
+
+Package natbib Warning: Citation `tezaur2015a' on page 5 undefined on input lin
+e 155.
+
+
+Package natbib Warning: Citation `tezaur2015b' on page 5 undefined on input lin
+e 155.
+
+
+Package natbib Warning: Citation `asay2016' on page 5 undefined on input line 1
+57.
+
+
+LaTeX Warning: Reference `eq:effvisc' on page 5 undefined on input line 157.
+
+
+LaTeX Warning: Reference `eq:basalbc' on page 5 undefined on input line 157.
+
+
+Package natbib Warning: Citation `rignot2014' on page 5 undefined on input line
+ 157.
+
+
+Package natbib Warning: Citation `hoffman2018' on page 5 undefined on input lin
+e 157.
+
+
+Package natbib Warning: Citation `perego2014' on page 5 undefined on input line
+ 157.
+
+
+Package natbib Warning: Citation `fretwell2013' on page 5 undefined on input li
+ne 157.
+
+
+Package natbib Warning: Citation `liefferinge2013' on page 5 undefined on input
+ line 157.
+
+
+Package natbib Warning: Citation `seroussi2014' on page 5 undefined on input li
+ne 157.
+
+
+Overfull \vbox (6.25pt too high) has occurred while \output is active []
+
+ [5]
+
+Package natbib Warning: Citation `reese2018' on page 6 undefined on input line 
+163.
+
+
+Package natbib Warning: Citation `asay2016' on page 6 undefined on input line 1
+63.
+
+
+Package natbib Warning: Citation `reese2018' on page 6 undefined on input line 
+165.
+
+
+Package natbib Warning: Citation `reese2018' on page 6 undefined on input line 
+165.
+
+
+Package natbib Warning: Citation `reese2018' on page 6 undefined on input line 
+167.
+
+
+Package natbib Warning: Citation `schoof2007' on page 6 undefined on input line
+ 171.
+
+
+Package natbib Warning: Citation `furst2016' on page 6 undefined on input line 
+173.
+
+
+LaTeX Warning: Reference `butN' on page 6 undefined on input line 173.
+
+
+Overfull \vbox (6.25pt too high) has occurred while \output is active []
+
+ [6]
+
+Package natbib Warning: Citation `gagliardini2010' on page 7 undefined on input
+ line 202.
+
+
+LaTeX Warning: Reference `fig2' on page 7 undefined on input line 202.
+
+
+LaTeX Warning: Reference `fig2' on page 7 undefined on input line 202.
+
+
+LaTeX Warning: Reference `fig2' on page 7 undefined on input line 202.
+
+
+LaTeX Warning: Reference `fig2' on page 7 undefined on input line 202.
+
+
+LaTeX Warning: Reference `fig9' on page 7 undefined on input line 202.
+
+<figs/fig2.pdf, id=64, 867.24pt x 578.16pt>
+File: figs/fig2.pdf Graphic file (type pdf)
+ <use figs/fig2.pdf>
+Package pdftex.def Info: figs/fig2.pdf used on input line 206.
+(pdftex.def)             Requested size: 506.45905pt x 337.6444pt.
+
+
+LaTeX Warning: Reference `butN' on page 7 undefined on input line 212.
+
+
+Package natbib Warning: Citation `furst2016' on page 7 undefined on input line 
+212.
+
+
+LaTeX Warning: Reference `fig3' on page 7 undefined on input line 212.
+
+
+LaTeX Warning: Reference `fig3' on page 7 undefined on input line 212.
+
+
+LaTeX Warning: Reference `fig3' on page 7 undefined on input line 212.
+
+
+Overfull \vbox (6.25pt too high) has occurred while \output is active []
+
+ [7]
+Underfull \vbox (badness 4242) has occurred while \output is active []
+
+
+Overfull \vbox (6.25pt too high) has occurred while \output is active []
+
+ [8 <./figs/fig2.pdf>] <figs/fig3.pdf, id=82, 867.24pt x 361.35pt>
+File: figs/fig3.pdf Graphic file (type pdf)
+ <use figs/fig3.pdf>
+Package pdftex.def Info: figs/fig3.pdf used on input line 216.
+(pdftex.def)             Requested size: 506.45905pt x 211.02774pt.
+
+
+LaTeX Warning: Reference `fig2' on page 9 undefined on input line 217.
+
+
+LaTeX Warning: Reference `fig2' on page 9 undefined on input line 217.
+
+
+LaTeX Warning: Reference `fig4' on page 9 undefined on input line 222.
+
+
+LaTeX Warning: Reference `fig4' on page 9 undefined on input line 222.
+
+
+LaTeX Warning: Reference `fig4' on page 9 undefined on input line 222.
+
+
+LaTeX Warning: Reference `fig4' on page 9 undefined on input line 222.
+
+
+LaTeX Warning: Reference `fig4' on page 9 undefined on input line 222.
+
+
+LaTeX Warning: Reference `fig2' on page 9 undefined on input line 222.
+
+<figs/fig4.pdf, id=83, 462.52798pt x 346.89601pt>
+File: figs/fig4.pdf Graphic file (type pdf)
+ <use figs/fig4.pdf>
+Package pdftex.def Info: figs/fig4.pdf used on input line 226.
+(pdftex.def)             Requested size: 506.45905pt x 379.8612pt.
+
+
+LaTeX Warning: Reference `fig2' on page 9 undefined on input line 227.
+
+
+LaTeX Warning: Reference `fig2' on page 9 undefined on input line 227.
+
+
+LaTeX Warning: Reference `fig5' on page 9 undefined on input line 231.
+
+
+LaTeX Warning: Reference `psi' on page 9 undefined on input line 236.
+
+
+LaTeX Warning: Reference `fig5' on page 9 undefined on input line 236.
+
+
+LaTeX Warning: Reference `fig5' on page 9 undefined on input line 236.
+
+
+LaTeX Warning: Reference `fig6' on page 9 undefined on input line 236.
+
+
+Overfull \vbox (6.25pt too high) has occurred while \output is active []
+
+ [9 <./figs/fig3.pdf>] <figs/fig5.pdf, id=131, 722.7pt x 289.08pt>
+File: figs/fig5.pdf Graphic file (type pdf)
+ <use figs/fig5.pdf>
+Package pdftex.def Info: figs/fig5.pdf used on input line 240.
+(pdftex.def)             Requested size: 506.45905pt x 202.58398pt.
+
+
+Package natbib Warning: Citation `gudmundsson2003' on page 10 undefined on inpu
+t line 245.
+
+
+Package natbib Warning: Citation `gudmundsson2003' on page 10 undefined on inpu
+t line 245.
+
+
+Overfull \vbox (6.25pt too high) has occurred while \output is active []
+
+ [10 <./figs/fig4.pdf>] <figs/fig6_new.pdf, id=166, 867.24pt x 361.35pt>
+File: figs/fig6_new.pdf Graphic file (type pdf)
+
+<use figs/fig6_new.pdf>
+Package pdftex.def Info: figs/fig6_new.pdf used on input line 249.
+(pdftex.def)             Requested size: 506.45905pt x 211.02774pt.
+
+Overfull \vbox (6.25pt too high) has occurred while \output is active []
+
+ [11 <./figs/fig5.pdf> <./figs/fig6_new.pdf
+
+pdfTeX warning: pdflatex (file ./figs/fig6_new.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+>]
+
+LaTeX Warning: Reference `fig7' on page 12 undefined on input line 258.
+
+
+LaTeX Warning: Reference `fig7' on page 12 undefined on input line 258.
+
+
+LaTeX Warning: Reference `fig7' on page 12 undefined on input line 258.
+
+
+LaTeX Warning: Reference `fig7' on page 12 undefined on input line 260.
+
+<figs/fig7_new.pdf, id=213, 462.52798pt x 346.89601pt>
+File: figs/fig7_new.pdf Graphic file (type pdf)
+ <use figs/fig7_new.pdf>
+Package pdftex.def Info: figs/fig7_new.pdf used on input line 264.
+(pdftex.def)             Requested size: 506.45905pt x 379.8612pt.
+
+
+Package natbib Warning: Citation `lick1970' on page 12 undefined on input line 
+270.
+
+
+LaTeX Warning: Reference `fig8' on page 12 undefined on input line 270.
+
+
+LaTeX Warning: Reference `fig8' on page 12 undefined on input line 272.
+
+
+Underfull \vbox (badness 3701) has occurred while \output is active []
+
+
+Overfull \vbox (6.25pt too high) has occurred while \output is active []
+
+ [12]
+<figs/fig8.pdf, id=217, 454.8192pt x 171.5208pt>
+File: figs/fig8.pdf Graphic file (type pdf)
+ <use figs/fig8.pdf>
+Package pdftex.def Info: figs/fig8.pdf used on input line 276.
+(pdftex.def)             Requested size: 506.45905pt x 190.9949pt.
+
+<figs/fig9.pdf, id=218, 867.24pt x 578.16pt>
+File: figs/fig9.pdf Graphic file (type pdf)
+ <use figs/fig9.pdf>
+Package pdftex.def Info: figs/fig9.pdf used on input line 285.
+(pdftex.def)             Requested size: 506.45905pt x 337.6444pt.
+
+Overfull \vbox (6.25pt too high) has occurred while \output is active []
+
+ [13 <./figs/fig7_new.pdf>]
+Overfull \vbox (6.25pt too high) has occurred while \output is active []
+
+ [14 <./figs/fig8.pdf> <./figs/fig9.pdf
+
+pdfTeX warning: pdflatex (file ./figs/fig9.pdf): PDF inclusion: multiple pdfs w
+ith page group included in a single page
+>]
+No file draft_v1.bbl.
+
+Package natbib Warning: There were undefined citations.
+
+
+Overfull \vbox (6.25pt too high) has occurred while \output is active []
+
+ [15]
+(./draft_v1.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.9pt have occurred.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2683 strings out of 493029
+ 35007 string characters out of 6136233
+ 96404 words of memory out of 5000000
+ 6165 multiletter control sequences out of 15000+600000
+ 20847 words of font info for 79 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 42i,11n,25p,1845b,298s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.
+pfb>
+Output written on draft_v1.pdf (15 pages, 2142997 bytes).
+PDF statistics:
+ 410 PDF objects out of 1000 (max. 8388607)
+ 199 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+
