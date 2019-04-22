@@ -274,6 +274,26 @@ where the subscripts $p$ and $c$ denote the perturbation experiments and the ``c
 	\label{fig6}
 \end{figure}
 
+\subsection{A possible metric connecting perturbation and GLF}
+
+The propagation of perturbation is likely determined by the flow regime on the ice shelf, i.e., the change of GLF is controlled by both the perturbation (geometry, stress field) and its surrounding ice dynamic features. To verify this we make the following metric:
+
+\begin{equation}
+    \Lambda = \sum_i^I \frac{1}{d_i}\mid cos\theta_i \mid,
+    \ref{Lambda}
+\end{equation}
+where $I$ is the total cell number on GL, $d_i$ is the distance between the perturbation spot and the $i$-th cell on GL, $theta_i$ is the angle difference between the direction of the specified normal stress at the perturbation spot and the flow direction for the $i$-th cell on GL. This metric gives us two possible important factors that impact GLF: 1) the geometric location of perturbation spot(the closer perturbation spots to GL, the larger impact of perturbation on GLF; see the discussion in the following section ``Impacts of near-GL perturbations''), 2) the relationship between ice flow along GL and the buttressing direction we choose at the perturbation spot (the perturbation has more impacts on GLF if the buttressing direction aligned more closely with the ice flow directions on GL).  
+Similar to above, we rotate the buttressing direction by 1--180$^\circ$ on top of the $\sigma_{p1}$ direction, and calculate $\Lambda$ for each perturbation spot. From Figure \ref{new_metric_new} we can see that $\Lambda$ has large values when the buttressing directions are close to the $\sigma_{p1}$ direction ($\Delta\phi=0^\circ$ or $\Delta\phi=180^\circ$). This is because, for MISMIP+, the $\sigma+{p1}$ on GL largely controls the GLF (see the quiver plots of principle stresses in the Appendix). For real ice shelves, the pattern of ice flow along GL might be much more complex then of MISMIP+m, resulting in difficulty of predicting GLF using single direction buttressing number.  
+
+
+\begin{figure}
+	\centering
+    \includegraphics[width=1\linewidth]{figs/new_metric_new.pdf}
+    \caption{The standard deviations of $\Psi$ -- a metric for how closely a change in normal stress corresponds with a change in velocity -- at each perturbation point of the MISMIP+ domain, for the case of $\sigma_{nn}=\sigma_{p1}$ (a) and $\sigma_{nn}=\sigma_{p2}$ (b).}
+	\label{new_metric_new}
+\end{figure}
+
+
 \subsection{Application to Larsen C ice shelf}
 
 To explore whether the correlations between $N_b$-$N_r$ for the MISMIP+ test case hold for realistic ice shelves, we apply a similar analysis to our Larsen C domain. In this case, the computational mesh resolution varies, from finer near the GL (xx km) to coarser towards the center of the ice shelf and calving front (yy km). We use 20 km $\times$ 20 km boxes for the application of ice thickness perturbations (as in \citet{reese2018}) where the number of grid cells contained within each perturbation ``box'' is adjusted in order to sum to the correct area. Additionally, to account for the complex geometry of the Larsen C ice shelf (i.e., the GL shape, the existence of ice rises, etc.), we apply two different sets of perturbation experiments, both with and without perturbations applied to boxes containing the GL. % for investigating further the nonlinearity feature we observe in the above MISMIP+ section. 
