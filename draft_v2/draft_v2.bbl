@@ -1,0 +1,197 @@
+\begin{thebibliography}{32}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{{\tt #1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{https://doi.org/\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{https://doi.org/\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem[{Asay-Davis et~al.(2016)Asay-Davis, Cornford, Durand, Galton-Fenzi,
+  Gladstone, Gudmundsson, Hattermann, Holland, Holland, Holland
+  et~al.}]{asay2016}
+Asay-Davis, X.~S., Cornford, S.~L., Durand, G., Galton-Fenzi, B.~K., Gladstone,
+  R.~M., Gudmundsson, H., Hattermann, T., Holland, D.~M., Holland, D., Holland,
+  P.~R., et~al.: Experimental design for three interrelated marine ice sheet
+  and ocean model intercomparison projects: MISMIP v. 3 (MISMIP+), ISOMIP v. 2
+  (ISOMIP+) and MISOMIP v. 1 (MISOMIP1), Geoscientific Model Development, 9,
+  2471--2497, 2016.
+
+\bibitem[{Barletta et~al.(2018)Barletta, Bevis, Smith, Wilson, Brown, Bordoni,
+  Willis, Khan, Rovira-Navarro, Dalziel et~al.}]{barletta2018}
+Barletta, V.~R., Bevis, M., Smith, B.~E., Wilson, T., Brown, A., Bordoni, A.,
+  Willis, M., Khan, S.~A., Rovira-Navarro, M., Dalziel, I., et~al.: Observed
+  rapid bedrock uplift in Amundsen Sea Embayment promotes ice-sheet stability,
+  Science, 360, 1335--1339, 2018.
+
+\bibitem[{Cornford et~al.(2015)Cornford, Martin, Payne, Ng, {Le Brocq},
+  Gladstone, Edwards, Shannon, Agosta, {Van Den Broeke}, Hellmer, Krinner,
+  Ligtenberg, Timmermann, and Vaughan}]{Cornford2015}
+Cornford, S.~L., Martin, D.~F., Payne, A.~J., Ng, E.~G., {Le Brocq}, A.~M.,
+  Gladstone, R.~M., Edwards, T.~L., Shannon, S.~R., Agosta, C., {Van Den
+  Broeke}, M.~R., Hellmer, H.~H., Krinner, G., Ligtenberg, S. R.~M.,
+  Timmermann, R., and Vaughan, D.~G.: {Century-scale simulations of the
+  response of the West Antarctic Ice Sheet to a warming climate}, The
+  Cryosphere, 9, 1579--1600,
+  \urlprefix\url{http://www.the-cryosphere.net/9/1579/2015/tc-9-1579-2015-supplement.zip
+  papers2://publication/doi/10.5194/tc-9-1579-2015-supplement}, 2015.
+
+\bibitem[{De~Rydt et~al.(2015)De~Rydt, Gudmundsson, Rott, and
+  Bamber}]{derydt2015}
+De~Rydt, J., Gudmundsson, G., Rott, H., and Bamber, J.: Modeling the
+  instantaneous response of glaciers after the collapse of the Larsen B Ice
+  Shelf, Geophysical Research Letters, 42, 5355--5363, 2015.
+
+\bibitem[{Fretwell et~al.(2013)Fretwell, Pritchard, Vaughan, Bamber, Barrand,
+  Bell, Bianchi, Bingham, Blankenship, Casassa et~al.}]{fretwell2013}
+Fretwell, P., Pritchard, H.~D., Vaughan, D.~G., Bamber, J., Barrand, N., Bell,
+  R., Bianchi, C., Bingham, R., Blankenship, D., Casassa, G., et~al.: Bedmap2:
+  improved ice bed, surface and thickness datasets for {Antarctica}, The
+  Cryosphere, 7, 375--393, \doi{10.5194/tc-7-375-2013}, 2013.
+
+\bibitem[{F{\"u}rst et~al.(2016)F{\"u}rst, Durand, Gillet-Chaulet, Tavard,
+  Rankl, Braun, and Gagliardini}]{furst2016}
+F{\"u}rst, J.~J., Durand, G., Gillet-Chaulet, F., Tavard, L., Rankl, M., Braun,
+  M., and Gagliardini, O.: The safety band of Antarctic ice shelves, Nature
+  Climate Change, 6, 479, 2016.
+
+\bibitem[{Gagliardini et~al.(2010)Gagliardini, Durand, Zwinger, Hindmarsh, and
+  Le~Meur}]{gagliardini2010}
+Gagliardini, O., Durand, G., Zwinger, T., Hindmarsh, R., and Le~Meur, E.:
+  Coupling of ice-shelf melting and buttressing is a key process in ice-sheets
+  dynamics, Geophysical Research Letters, 37, 2010.
+
+\bibitem[{Goldberg et~al.(2019)Goldberg, Gourmelen, Kimura, Millan, and
+  Snow}]{Goldberg2019}
+Goldberg, D.~N., Gourmelen, N., Kimura, S., Millan, R., and Snow, K.: {How
+  Accurately Should We Model Ice Shelf Melt Rates?}, Geophysical Research
+  Letters, 46, 189--199, \doi{10.1029/2018GL080383}, 2019.
+
+\bibitem[{Gudmundsson(2013)}]{gudmundsson2013}
+Gudmundsson, G.: Ice-shelf buttressing and the stability of marine ice sheets,
+  The Cryosphere, 7, 647--655, 2013.
+
+\bibitem[{Gudmundsson(2003)}]{gudmundsson2003}
+Gudmundsson, G.~H.: Transmission of basal variability to a glacier surface,
+  Journal of Geophysical Research: Solid Earth, 108, 2003.
+
+\bibitem[{Gudmundsson et~al.(2012)Gudmundsson, Krug, Durand, Favier, and
+  Gagliardini}]{gudmundsson2012}
+Gudmundsson, H., Krug, J., Durand, G., Favier, L., and Gagliardini, O.: The
+  stability of grounding lines on retrograde slopes, The Cryosphere, 6,
+  1497--1505, 2012.
+
+\bibitem[{Hoffman et~al.(2018)Hoffman, Perego, Price, Lipscomb, Zhang,
+  Jacobsen, Tezaur, Salinger, Tuminaro, and Bertagna}]{hoffman2018}
+Hoffman, M.~J., Perego, M., Price, S.~F., Lipscomb, W.~H., Zhang, T., Jacobsen,
+  D., Tezaur, I., Salinger, A.~G., Tuminaro, R., and Bertagna, L.: MPAS-Albany
+  Land Ice (MALI): a variable-resolution ice sheet model for Earth system
+  modeling using Voronoi grids, Geoscientific Model Development, 11,
+  3747--3780, \doi{10.5194/gmd-11-3747-2018},
+  \urlprefix\url{https://www.geosci-model-dev.net/11/3747/2018/}, 2018.
+
+\bibitem[{Hutter(1983)}]{hutter1983}
+Hutter, K.: Theoretical glaciology, Reidel Publ., Dordrecht, Netherlands,
+  \doi{10.1007/978-94-015-1167-4}, 1983.
+
+\bibitem[{Jenkins et~al.(2016)Jenkins, Dutrieux, Jacobs, Steig, Gudmundsson,
+  Smith, and Heywood}]{JenkinsEtAl2016}
+Jenkins, A., Dutrieux, P., Jacobs, S., Steig, E., Gudmundsson, H., Smith, J.,
+  and Heywood, K.: {Decadal Ocean Forcing and Antarctic Ice Sheet Response:
+  Lessons from the Amundsen Sea}, Oceanography, 29, 106--117,
+  \doi{10.5670/oceanog.2016.103},
+  \urlprefix\url{http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2{\&}SrcAuth=mekentosj{\&}SrcApp=Papers{\&}DestLinkType=FullRecord{\&}DestApp=WOS{\&}KeyUT=000390560400013
+  papers2://publication/doi/10.5670/oceanog.2016.103}, 2016.
+
+\bibitem[{Joughin et~al.(2014)Joughin, Smith, and Medley}]{joughin2014}
+Joughin, I., Smith, B.~E., and Medley, B.: Marine ice sheet collapse
+  potentially under way for the Thwaites Glacier Basin, West Antarctica,
+  Science, 344, 735--738, 2014.
+
+\bibitem[{Lick(1970)}]{lick1970}
+Lick, W.: The propagation of disturbances on glaciers, Journal of Geophysical
+  Research, 75, 2189--2197, 1970.
+
+\bibitem[{Liefferinge and Pattyn(2013)}]{liefferinge2013}
+Liefferinge, B.~V. and Pattyn, F.: Using ice-flow models to evaluate potential
+  sites of million year-old ice in Antarctica, Climate of the Past, 9,
+  2335--2345, 2013.
+
+\bibitem[{Mercer(1978)}]{mercer1978}
+Mercer, J.~H.: West Antarctic ice sheet and CO2 greenhouse effect: a threat of
+  disaster, Nature, 271, 321, 1978.
+
+\bibitem[{Morland(1987)}]{morland1987}
+Morland, L.: Unconfined ice-shelf flow, in: Dynamics of the West Antarctic Ice
+  Sheet, pp. 99--116, Springer, 1987.
+
+\bibitem[{Pegler and Worster(2012)}]{pegler2012}
+Pegler, S.~S. and Worster, M.~G.: Dynamics of a viscous layer flowing radially
+  over an inviscid ocean, Journal of Fluid Mechanics, 696, 152--174, 2012.
+
+\bibitem[{Perego et~al.(2012)Perego, Gunzburger, and Burkardt}]{perego2012}
+Perego, M., Gunzburger, M., and Burkardt, J.: {Parallel finite-element
+  implementation for higher-order ice-sheet models}, Journal of Glaciology, 58,
+  76--88, \doi{10.3189/2012JoG11J063}, 2012.
+
+\bibitem[{Perego et~al.(2014)Perego, Price, and Stadler}]{perego2014}
+Perego, M., Price, S., and Stadler, G.: Optimal initial conditions for coupling
+  ice sheet models to Earth system models, Journal of Geophysical Research:
+  Earth Surface, 119, 1894--1917, 2014.
+
+\bibitem[{Reese et~al.(2018)Reese, Gudmundsson, Levermann, and
+  Winkelmann}]{reese2018}
+Reese, R., Gudmundsson, G.~H., Levermann, A., and Winkelmann, R.: The far reach
+  of ice-shelf thinning in Antarctica, Nature Climate Change, 8, 53, 2018.
+
+\bibitem[{Rignot et~al.(2014)Rignot, Mouginot, Morlighem, Seroussi, and
+  Scheuchl}]{rignot2014}
+Rignot, E., Mouginot, J., Morlighem, M., Seroussi, H., and Scheuchl, B.:
+  Widespread, rapid grounding line retreat of Pine Island, Thwaites, Smith, and
+  Kohler glaciers, West Antarctica, from 1992 to 2011, Geophysical Research
+  Letters, 41, 3502--3509, 2014.
+
+\bibitem[{Royston and Gudmundsson(2016)}]{royston2016}
+Royston, S. and Gudmundsson, G.~H.: Changes in ice-shelf buttressing following
+  the collapse of Larsen A Ice Shelf, Antarctica, and the resulting impact on
+  tributaries, Journal of Glaciology, 62, 905--911, 2016.
+
+\bibitem[{Schoof(2007)}]{schoof2007}
+Schoof, C.: Ice sheet grounding line dynamics: Steady states, stability, and
+  hysteresis, Journal of Geophysical Research: Earth Surface, 112, 2007.
+
+\bibitem[{Schoof(2012)}]{schoof2012}
+Schoof, C.: Marine ice sheet stability, Journal of Fluid Mechanics, 698,
+  62--72, 2012.
+
+\bibitem[{Schoof and Hewitt(2013)}]{schoof2013}
+Schoof, C. and Hewitt, I.: {Ice-sheet dynamics}, Annual Review of Fluid
+  Mechanics, 45, 217--239, 2013.
+
+\bibitem[{Seroussi et~al.(2014)Seroussi, Morlighem, Larour, Rignot, and
+  Khazendar}]{seroussi2014}
+Seroussi, H., Morlighem, M., Larour, E., Rignot, E., and Khazendar, A.:
+  Hydrostatic grounding line parameterization in ice sheet models, The
+  Cryosphere, 8, 2075--2087, 2014.
+
+\bibitem[{Tezaur et~al.(2015{\natexlab{a}})Tezaur, Perego, Salinger, Tuminaro,
+  and Price}]{tezaur2015a}
+Tezaur, I.~K., Perego, M., Salinger, A.~G., Tuminaro, R.~S., and Price, S.:
+  {Albany/FELIX: a parallel, scalable and robust, finite element, first-order
+  Stokes approximation ice sheet solver built for advanced analysis},
+  Geoscientific Model Development, 8, 1--24, \doi{10.5194/gmd-8-1-2015},
+  2015{\natexlab{a}}.
+
+\bibitem[{Tezaur et~al.(2015{\natexlab{b}})Tezaur, Tuminaro, Perego, Salinger,
+  and Price}]{tezaur2015b}
+Tezaur, I.~K., Tuminaro, R.~S., Perego, M., Salinger, A.~G., and Price, S.~F.:
+  {On the Scalability of the Albany/FELIX first-order Stokes Approximation ice
+  Sheet Solver for Large-Scale Simulations of the Greenland and Antarctic ice
+  Sheets}, Procedia Computer Science, 51, 2026--2035,
+  \doi{10.1016/j.procs.2015.05.467}, 2015{\natexlab{b}}.
+
+\bibitem[{Wearing(2016)}]{wearing2016}
+Wearing, M.: The Flow Dynamics and Buttressing of Ice Shelves, Ph.D. thesis,
+  University of Cambridge, 2016.
+
+\end{thebibliography}
