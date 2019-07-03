@@ -143,31 +143,31 @@ Gradients in the horizontal velocity components, $u$ and $v$, contribute to the 
 \end{eqnarray}
 
 A stress free upper surface is enforced through 
-%\begin{equation} \label{eq:stressFreeBC}
-%\dot{\boldsymbol{\epsilon}}_1 \cdot \mathbf{n} = \dot{\boldsymbol{\epsilon}}_2 \cdot \mathbf{n} = 0, 
-%\end{equation}
 \begin{equation} \label{eq:stressFreeBC}
-\boldsymbol{\sigma} \cdot \mathbf{n} = 0, 
+\dot{\boldsymbol{\epsilon}}_1 \cdot \mathbf{n} = \dot{\boldsymbol{\epsilon}}_2 \cdot \mathbf{n} = 0, 
 \end{equation}
+%\begin{equation} \label{eq:stressFreeBC}
+%\boldsymbol{\sigma} \cdot \mathbf{n} = 0, 
+%\end{equation}
 where $\mathbf{n}$ is the outward pointing normal vector at the ice sheet upper surface, $z=s(x,y)$.
 The lower surface is allowed to slide according to the continuity of basal tractions,
-%\begin{equation} \label{eq:basalbc}
-%\begin{array}{ll}
-%2\mu_e \dot{\boldsymbol{\epsilon}}_1 \cdot \mathbf{n} + \beta u = 0, \hspace{0.2cm} 2 \mu \dot{\boldsymbol{\epsilon}}_2 \cdot \mathbf{n} + \beta v = 0, \\
-%\end{array}
-%\end{equation}
 \begin{equation} \label{eq:basalbc}
-\boldsymbol{\sigma} \cdot \mathbf{n} + \beta \boldsymbol{u} = 0,
+\begin{array}{ll}
+2\mu_e \dot{\boldsymbol{\epsilon}}_1 \cdot \mathbf{n} + \beta u = 0, \hspace{0.2cm} 2 \mu \dot{\boldsymbol{\epsilon}}_2 \cdot \mathbf{n} + \beta v = 0, \\
+\end{array}
 \end{equation}
-where $\beta$ is a spatially variable friction coefficient, $\boldsymbol{\sigma}$ is the stress tensor and $\boldsymbol{u}$ is the two-dimensional velocity vector ($u$, $v$). On lateral boundaries in contact with the ocean, the portion of the boundary above sea level is stress free while the portion below sea level feels the ocean hydrostatic pressure according to
-%\begin{equation}\label{eq:oceanbc}
-%\begin{array}{ll}
-%2 \mu_e \left(\dot{\boldsymbol{\epsilon}}_1 \cdot \mathbf{n},\, \dot{\boldsymbol{\epsilon}}_2 \cdot \mathbf{n},\, 0\right)^T -\rho_i g (s-z)\mathbf{n} = \rho_o g \max(z,0) \mathbf{n},
-%\end{array}
+%\begin{equation} \label{eq:basalbc}
+%\boldsymbol{\sigma} \cdot \mathbf{n} + \beta \boldsymbol{u} = 0,
 %\end{equation}
+where $\beta$ is a spatially variable friction coefficient, $\boldsymbol{\sigma}$ is the stress tensor and $\boldsymbol{u}$ is the two-dimensional velocity vector ($u$, $v$). On lateral boundaries in contact with the ocean, the portion of the boundary above sea level is stress free while the portion below sea level feels the ocean hydrostatic pressure according to
 \begin{equation}\label{eq:oceanbc}
-\boldsymbol{\sigma} \cdot \mathbf{n} = \rho_i g (s-z)\mathbf{n},
+\begin{array}{ll}
+2 \mu_e \dot{\boldsymbol{\epsilon}}_1 \cdot \mathbf{n} = \frac{1}{2} \rho_i g H \left(1- \frac{\rho_i}{\rho_o} \right) \mathbf{n}_1, \quad 2 \mu_e  \dot{\boldsymbol{\epsilon}}_2 \cdot \mathbf{n} = \frac{1}{2} \rho_i g H \left(1- \frac{\rho_i}{\rho_o} \right) \mathbf{n}_2
+\end{array}
 \end{equation}
+%\begin{equation}\label{eq:oceanbc}
+%\boldsymbol{\sigma} \cdot \mathbf{n} = \rho_i g (s-z)\mathbf{n},
+%\end{equation}
 %where $\rho_o$ represents the density of ocean water and $xx\mathbf{n}$ the outward pointing normal vector to the lateral boundary (i.e., parallel to the $(x,y)$ plane).
 where $\mathbf{n}$ the outward pointing normal vector to the lateral boundary (i.e., parallel to the $(x,y)$ plane).
 %\textbf{TZ: I change this section a bit to avoid it looking identical to Matt's MALI paper.}
@@ -273,7 +273,7 @@ The maximum speed changes cluster within 0 to 45$^\circ$ of $\mathbf{n}_{p1}$ an
 \begin{figure}
 	\centering
     \includegraphics[width=1\linewidth]{figs/perturb_theta_velchange.pdf}
-    \caption{Histograms for the maximum (red) and minimum (blue) percent speed change in grid cells adjacent to a thickness perturbation point, plotted as a function of of angular distance with respect to the $\sigma_{p1}$ direction. Points analyzed are those from Fig.~\ref{mismip_Nb_GLF_regression}d.}
+    \caption{Histograms for the maximum (red) and minimum (blue) percent speed change in grid cells adjacent to a thickness perturbation point, plotted as a function of angular distance with respect to the $\sigma_{p1}$ direction. Points analyzed are those from Fig.~\ref{mismip_Nb_GLF_regression}d.}
 	\label{perturb_theta_velchange}
 \end{figure}
 
@@ -389,10 +389,15 @@ The propagation of perturbations is also strongly impacted by the geometry of th
 
 \subsection{Adjoint sensitivity}
 
-Motivated by some of the complications discussed above when looking for a simple metric for diagnosing GLF sensitivity to local ice shelf thickness changes, we now investigate a different approach. This approach provides results analogous to those presented and discussed above but at a greatly reduced cost: rather than using the forward model to examine the sensitivity of GLF change to individual perturbations at each of \textit{n} model grid cells, we use a single adjoint solve to deduce those same sensitivities at all \textit{n} grid cells \textit{simultaneously} from the tangent linear model. 
+Motivated by some of the complications discussed above when looking for a simple metric for diagnosing GLF sensitivity to local ice shelf thickness changes, we now investigate a different approach. This approach provides a sensitivity map of the GLF analogous to the one proposed and discussed above but associated to infinitesimal rather than finite perturbations. Instead of computing the GLF change due to individual perturbations at each \textit{n} model grid cells, requiring \textit{n} forward solves, the adjoint method allows to compute the sensitivity at all  cells simultaneously at the cost of a single linear solve. Briefly, this method involves the solution of an auxiliary linear system (the adjoint system) to compute the so-called Lagrange multiplier (a variable that has the same dimension of the velocity solution). The matrix associated to the system is the transpose of the Jacobian of the first-order flow model. In addition, the adjoint method requires the computation of the partial derivatives of the FO residual and the GLF w.r.t. the velocity solution and the ice thickness. We compute the Jacobian and all the other derivatives using automatic differentiation.
+We note that the computation of the derivatives require special attention because a change in the thickness affects the geometry of the problem, and so shape derivatives need to be taken into account as well.
+A similar adjoint approach has been proposed in \cite{Goldberg2019} to compute the sensitivity of the volume above flotation w.r.t the melting rate averaged over the period 2011-2015. In contrast to our approach, the authors have to compute \emph{transient} sensitivities because their quantity of interest is averaged over a period of time.  
 
-Briefly, this method involves ... 
-\textit{Mauro, please give us a sketch of some technical details here and we can fill in the rest.}
+%Once the Lagrangian multiplier has been computed, the sensitivity map can be computed by evaluating the derivative w.r.t. the with a matrix vector multiplication, where the  is given by the contraction of the Lagrange multiplier with the 
+%This approach provides results analogous to those presented and discussed above but at a greatly reduced cost: rather than using the forward model to examine the sensitivity of GLF change to individual perturbations at each of \textit{n} model grid cells, we use a single adjoint solve to deduce those same sensitivities at all \textit{n} grid cells \textit{simultaneously} from the tangent linear model. 
+
+%Briefly, this method involves ... 
+%\textit{Mauro, please give us a sketch of some technical details here and we can fill in the rest.}
 
 In Fig.~\ref{adjoint_comp}, we provide a demonstration of this method for the case of the MISMIP+ domain by comparing sensitivities deduced from 730 individual forward model evaluations (i.e., the perturbation experiments discussed above, which are analagous to those in \citet{reese2018}) with those deduced from a single model adjoint solve. Here, the ``sensitivity'' is defined as ... \textit{SP: need more details from Mauro here.} 
 
@@ -503,9 +508,9 @@ The comparison in Fig.~\ref{adjoint_comp} demonstrates that, for points in the d
 %Among the main uncertainties and questions in the current ``hot spot''---Marine Ice Sheet Instability problem, the interactions between ice shelf and ocean are gaining increased interests in the glaciology community. 
 There has been much recent and intense interest in the marine ice sheet instability (MISI), primarily in the context of the potential ongoing and future unstable retreat of sectors of the West Antarctic ice sheet (add REFS?). Due to the connections between ice shelf buttressing and the MISI, attention has shifted to better understanding the sensitivity of GLF to ice shelf basal melting. Specifically, where are ice shelves most vulnerable to basal melting in the context of increased GLF and can we predict the sensitivity of changes in GLF to ice shelf melting based on the present-day geometry and flow field of the ice shelf? In this study, we have attempted to address these questions, with the following findings:
 
-The GLF response to thickness perturbation is highly relevant to the direction of buttressing. Although, locally, the buttressing is maximum along the second principal stress ($\sigma_{p2}$ direction, we find a much better correlation between GLF response to the buttressing defined in terms of the first principal stress ($\sigma_{p1}$) at perturbation points that are located near the center region of the ice shelf. \textit{SP: We can hit this a little bit harder by pointing out that this is in disagreement with the work of Furst et al., who use sigma p2 to identify regions of passive ice.} We argue that this is because the GLF response is controlled by both the dynamics at GL and the perturbation points and their relationship (for example, (13)) in between. Therefore, we cannot easily predict GLF response by only analyzing the geometric and dynamic features of a local perturbation, i.e, large basal melting at a location of high buttressing (large buttressing number along the $\sigma_{p2}$ direction) do not always lead to large GLF increases.
+The GLF response to thickness perturbation is highly dependent on the direction of buttressing. Although, locally, the buttressing is maximum along the second principal stress ($\sigma_{p2}$ direction, we find a much better correlation between GLF response to the buttressing defined in terms of the first principal stress ($\sigma_{p1}$) at perturbation points that are located near the center region of the ice shelf. The buttressing number (along $\mathbf{n}_{p2}$ and $\mathbf{n}_f$) approach adopted in \citet{furst2016} for identifying passive ice regions doesn't properly apply in terms of finding sensitive ice shelf regions that well connect basal melting and GLF responses.\textit{SP: We can hit this a little bit harder by pointing out that this is in disagreement with the work of Furst et al., who use sigma p2 to identify regions of passive ice.} \textit{Tong: I add a sentence here}  We argue that this is because the GLF response is controlled by both the dynamics at GL and the perturbation points and their relationship (for example, (13)) in between. Therefore, we cannot easily predict GLF response by only analyzing the geometric and dynamic features of a local perturbation, i.e, large basal melting at a location of high buttressing (large buttressing number along the $\sigma_{p2}$ direction) do not always lead to large GLF increases.
 
-Near the GL, there is no clear connection between the buttressing at the perturbation points and the response of GLF, as 1) the pattern of ice flow across GL may be highly heterogeneous in space for real ice shelves and 2) the propagation of perturbation will be strongly affected by the local GL geometry. In this case, the distance between the perturbation point and GL may be playing the critical role, as the energy of the perturbation decays over distance. We observe large increase of ice speed and flux for GL cells that are close to the perturbation points. This indicates two possible consequences: 1) the grounded ice sheet dynamics will be negligibly affected if the GL dynamics is insensitive to melt perturbation (e.g., the bed topography is downward sloping and the ice thickness at GL is thin); 2) the retreats of GL will be spatially heterogeneous if the dynamics of local GL is sensitive to the perturbation (e.g., the bed topography has retrograde slope and large ice thickness) while the remote portion of GL experience relatively little impact from the perturbation.
+Near the GL, there is no clear connection between the buttressing at the perturbation points and the response of GLF, as 1) the pattern of ice flow across GL may be highly heterogeneous in space for real ice shelves and 2) the propagation of perturbation will be strongly affected by the local GL geometry. In this case, the distance between the perturbation point and GL may be playing the critical role, as the energy of the perturbation decays over distance. We observe large increase of ice speed and flux for GL cells that are close to the perturbation points. This indicates two possible consequences: 1) the grounded ice sheet dynamics will be negligibly affected if the GL dynamics is insensitive to melt perturbation (e.g., the bed topography is downward sloping or the ice thickness at GL is thin); 2) the retreats of GL will be spatially heterogeneous if the dynamics of local GL is sensitive to the perturbation (e.g., the bed topography has retrograde slope and large ice thickness) while the remote portion of GL experience relatively little impact from the perturbation.
 
 Considering the complex pattern of the connection between GLF response and buttressing number at perturbation points for real ice shelves, we propose to adopt the adjoint sensitivity method in the ice sheet model to accurately capture the dynamic change of GLF sensitivities. For perturbation points that are near to the (can we say something quantitative here, like using the thickness gradient metric?) GL, the adjoint method may not provide consistent results due to the large gradient of ice geometry (nonlinearity), but it can capture the complex ice dynamics along GL for real ice shelves for most perturbation points. By introducing the adjoint sensitivity method we do not need to do every perturbation experiment to determine the sensitivity map of an ice shelf. \textbf{TZ: I think we need further evidence of adjoint ability on complex real ice shelves. What do you think, Steve? SP: I'm inclined to see if we can get away with it for now, and only address it if we are asked for it in review.}
 
